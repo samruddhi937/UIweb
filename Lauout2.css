@@ -1,0 +1,157 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.containor
+{
+ width: 60%;
+ min-height: 100px;
+ margin: 80px auto;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+ /* border: 1px solid lightgray; */
+
+}
+.LogNav {
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+.LogNav .logo{
+ width: 40%;
+ /* height: 30px; */
+ float: left;
+ padding-left:10x;
+ /* border: 1px solid #000; */
+}
+.logo h1{
+    color: white;
+}
+.LogNav .nav{
+    width: 60%;
+    height: 40px;
+float: right;
+padding: 5px;
+/* border: 1px solid #000; */
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav ul{
+    
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    color: white;
+    
+}
+
+.nav ul li {
+    display:inline-block;
+    padding-right: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+    
+
+}
+.nav ul li a{
+    color: white;
+        text-decoration: none;
+            padding-left: 5px;
+
+
+
+}
+nav ul li a:hover{
+    background-color: #8d6e63;
+    margin-right: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transform: translateY(-5
+    px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+.silder{
+    width: 100%;
+    height: 300px;
+    margin-top: 5px;
+    
+}
+.silder img{
+    width: 100%;
+    height: 90px;
+    margin-top: auto;
+
+}
+
+.textArea {
+    /* background-color: aqua; */
+    width: 100%;
+    min-height: 120px;
+    margin-bottom: auto;
+    /* border: 1px solid #000; */
+    margin-top: 5px;
+    padding: 5px;
+    /* text-align: center; */
+    /* line-height: 120px; */
+}
+.main-boxs{
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+    justify-content: space-between;
+    /* margin-bottom: 5px; */
+}
+.main-boxs .box{
+    width: 100%;
+    min-height: 200px;
+    float: left;
+    background-color: lightgray;
+    margin:  5px;
+    padding: 10px;
+    text-align: center;
+}  
+/* this is sudocode */
+
+/* .box:first-child{
+    margin-left: 0;
+}
+.box:last-child{
+    margin-right: -30px;
+}
+.box:nth-child(2)
+{
+    margin-right: 16px;
+} */
+
+.footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 40px;
+
+}
