@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+:root {
+    --marginTop: 5px
+        /* if the constant value is same in multiple time so use this global variable
+     */
+}
+
+.container {
+    /* border: 2px solid #000;*/
+    width: 60%;
+    min-height: 100px;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.container .logo {
+    width: 100%;
+    height: 40px;
+    background-color:#3D74B6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.logo h1 {
+    padding: 10px;
+    color: white;
+    padding-top: 6px;
+
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #3D74B6;
+    /*padding: 12px;
+    */
+    margin-top: var(--marginTop);
+    border-radius: 10px;
+    1-webkit-border-radius: ;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    width: 100%;
+
+
+}
+
+.nav ul li {
+    display: inline-block;
+    padding-top: 8px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.nav ul li a:hover {
+    background-color: lightslategrey;
+    color: white;
+    padding: 10px;
+}
+
+.silder {
+    width: 100%;
+    height: 300px;
+    margin-top: var(--marginTop)
+}
+
+.silder img {
+    width: 100%;
+    height: 300px;
+    margin-top: auto;
+}
+
+.main-box {
+    width: 100%;
+    min-height: 400px;
+    /* background-color: darkgray; */
+    padding: 5px;
+    margin-top: 20px
+}
+
+.main-box .bar {
+    width: 40%;
+    min-height: 200px;
+    float: left;
+    padding-left: 5px;
+    /* background-color: brown; */
+    text-align: center;
+    /* line-height: 300px; */
+    /* border: 1px solid #000; */
+}
+
+.bar img {
+    width: 100%;
+    min-height: 200px;
+}
+
+.main-box .area {
+    width: 58%;
+    min-height: 300px;
+    float: right;
+    padding: 5px;
+    /* background-color: brown; */
+    text-align: center;
+    /* line-height: 300px; */
+    /* border: 1px solid #000; */
+
+}
+
+.clearfix::after {
+    /* it is a custom class not declare any code */
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* .main-box .bar img{
+    width: 60%;
+    height: 40%;
+}
+.main-box .area img{
+    width: 50%;
+   min-height: 200px;
+} */
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #3D74B6;
+    /* color: white; */
+    /* padding: 5px; */
+    margin-top: 100px;
+
+}
+
+.footer p {
+    /* margin-top: var(--marginTop); */
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+.text-photo {
+    width: 100%;
+    min-height: 300px;
+}
+
+.text-photo .text {
+    width: 49%;
+    height: 300px;
+    float: left;
+}
+
+.text p {
+    text-align: justify;
+    padding: 5px;
+}
+
+.text-photo .photo {
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+
+.photo img {
+    width: 100%;
+    padding: 5px;
+    height: 300px;
+}
+
+
+.photo-text {
+    width: 100%;
+    min-height: 300px;
+}
+
+.photo-text .photo1 {
+    width: 50%;
+    height: 200px;
+    float: left;
+    padding-bottom: 5px;
+
+}
+
+.photo1 img {
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+}
+
+.photo-text .text1 {
+
+    width: 49%;
+    height: 300px;
+    float: left;
+}
+
+.text1 p {
+    text-align: justify;
+    padding: ;
+}
